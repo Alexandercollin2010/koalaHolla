@@ -5,3 +5,9 @@ Ororo,F,7,N,loves listening to Paula (Abdul)
 Logan,M,15,N,Love the sauna
 Charlie,M,9,Y,Favorite band is Nirvana
 Betsy,F,4,Y,Has a pet iguana
+
+
+CREATE TABLE koala_bears (
+  id SERIAL PRIMARY KEY NOT NULL,
+  name VATCHAR(30) UNIQUE
+)
